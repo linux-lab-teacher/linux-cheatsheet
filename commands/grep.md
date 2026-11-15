@@ -13,6 +13,16 @@ The following examples use a file named `server.log` with this content:
     WARNING Disk space is low
     ERROR Network timeout
 
+## Sample Log File
+
+The following examples use a file named `server.log` with this content:
+
+    INFO Server started
+    ERROR Database connection failed
+    INFO User logged in
+    WARNING Disk space is low
+    ERROR Network timeout
+
 ## 1. Basic Search
 
 Search for lines containing the word `ERROR`.
