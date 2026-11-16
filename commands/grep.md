@@ -89,3 +89,16 @@ Expected output:
     ERROR Database connection failed
     WARNING Disk space is low
     ERROR Network timeout
+## 6. Search Multiple Files
+
+Search for the word `ERROR` in multiple files.
+
+Command:
+
+    grep "ERROR" server.log application.log
+
+Expected output:
+
+    server.log:ERROR Database connection failed
+    server.log:ERROR Network timeout
+    application.log:ERROR Application crashed
