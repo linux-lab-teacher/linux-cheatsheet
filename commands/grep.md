@@ -13,6 +13,8 @@ The following examples use a file named `server.log` with this content:
     WARNING Disk space is low
     ERROR Network timeout
 
+The `grep` command searches for lines that match a specified pattern in one or more files.
+
 ## Sample Log File
 
 The following examples use a file named `server.log` with this content:
